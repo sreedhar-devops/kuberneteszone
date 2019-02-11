@@ -3,7 +3,7 @@ kind : Pod
 metadata :
   name : mfpod
 spec :
-  hostnetwork : true
+  hostNetwork : true
   containers :
     -  name : mynginxcon
        image : nginx
