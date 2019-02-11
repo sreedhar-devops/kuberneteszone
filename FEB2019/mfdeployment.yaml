@@ -23,7 +23,7 @@ spec:
         hostNetwork : true
         containers:
         - name : depconainer
-          image : httpd
-        # image: nginx
+        #  image : httpd
+          image: nginx
           ports:
           - containerPort : 8080
