@@ -8,5 +8,5 @@ spec :
     -  name : mynginxcon
        image : nginx
        ports :
-         - containerport : 80
+         - containerPort : 80
 # check for diff ports ex 81,82 8085 etc

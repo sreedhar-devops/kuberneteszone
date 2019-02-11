@@ -3,7 +3,7 @@ kind: pod
 metadata:
   name: hello-pod
 spec:
-  containers:
+  containers:  
     - name: myfirstcontainer
       image: tomcat
       ports:
