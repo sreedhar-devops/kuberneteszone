@@ -1,0 +1,12 @@
+apiVersion : 
+kind : Pod
+metadata :
+  name : mfpod
+spec :
+  hostnetwork : true
+  containers :
+    -  name : mynginxcon
+       image : nginx
+       ports :
+         - containerport : 80
+# check for diff ports ex 81,82 8085 etc

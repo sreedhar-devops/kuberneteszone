@@ -1,0 +1,20 @@
+apiVersion : 
+kind : ReplicaSet
+metadata : 
+  name: MyReplicaSet
+  labels :
+    app : myfirstapp
+spec :
+  replicas : 2
+  selector :
+    app : myfirstapp
+  template :
+    metadata :
+      labels : 
+        app : myfirstapp
+    spec:
+      containers:
+      - name : MyReplicaSetPod
+        image : nginx
+        ports:
+        - containerport : 80
